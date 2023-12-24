@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="books.js" defer></script>
+  </head>
+  <body>
+    <table id="table">
+      <caption>
+        LIBRARY
+        <em>of</em>
+        MEDANA
+      </caption>
+      <thead class="thead">
+        <tr class="thead">
+          <th>Title</th>
+          <th>Author</th>
+          <th>Pages</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <button type="button" id="addBook">Add Book</button>
+    <dialog id="dialog">
+      <form name="formBook" method="dialog" class="askBook" id="myForm">
+        <div class="dataForm">
+          <label>
+            Title:
+            <input
+              class="bookData"
+              name="title"
+              id="title"
+              type="text"
+              required
+            />
+          </label>
+        </div>
+        <div class="dataForm">
+          <label>
+            Author:
+            <input
+              class="bookData"
+              name="author"
+              id="author"
+              type="text"
+              required
+            />
+          </label>
+        </div>
+        <div class="dataForm">
+          <label>
+            Pages:
+            <input
+              class="bookData"
+              name="pages"
+              id="pages"
+              type="text"
+              required
+            />
+          </label>
+        </div>
+        <div class="dataForm">
+          <label>
+            Status:
+            <input
+              class="bookData"
+              name="status"
+              id="status"
+              type="text"
+              required
+            />
+          </label>
+        </div>
+        <div class="dataForm">
+          <button type="submit" id="confirm">Add</button>
+          <button type="submit" id="js-close">Cancel</button>
+        </div>
+      </form>
+    </dialog>
+  </body>
+</html>

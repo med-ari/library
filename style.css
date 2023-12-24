@@ -1,0 +1,76 @@
+:root {
+    font-family: "Palatino Linotype"; 
+}
+table {
+    /* border-collapse: collapse;  */
+    background-color: #fff4f6;
+    border: solid rgb(44, 4, 18) 3px;
+    border-radius: 6px;
+    box-shadow: 4px 3px rgb(49, 3, 19);
+}
+caption {
+    font-size:x-large;
+    font-weight: bold;
+}
+em {
+    font-weight:500;
+}
+thead {
+    background-color: rgb(246, 96, 128);
+    font-size: large;
+}
+td, th {
+    border-radius: 3px;
+    padding: 0.7rem;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #fbd5da;
+}
+
+tr:not(.thead):hover {
+    background-color: #b0d8dd;
+}
+
+button {
+    background-color: rgb(30, 93, 94);
+    border-radius: 6px;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(246, 211, 193);
+    box-shadow: 2px 2px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #d03232;
+    color: black;
+}
+
+dialog {
+    border: 2px solid black;
+    box-shadow: 3px 5px black;
+    border-radius: 6px;
+    background-color: rgb(254, 228, 223);
+}
+
+
+
+
+label {
+    display: inline-block;
+    width: 200px;
+    padding: 0px 10px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid rgb(67, 166, 188);
+    border-radius: 6px;
+}
